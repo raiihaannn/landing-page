@@ -1,0 +1,152 @@
+/* Gaya Dasar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    background-color: #333d34;
+    color: white;
+    padding: 20px 0;
+  }
+
+  header h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;}
+  
+  /* Login Section */
+  .login-section {
+    text-align: center;
+    margin: 50px;
+    padding: 55px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-section input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+  }
+  
+  .login-section button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .login-section button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Product Section (Slider) */
+  .product-section {
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  .slider {
+    position: relative;
+    width: 60%; /* Lebar slider */
+    margin: 0 auto; /* Memusatkan slider secara horizontal */
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    min-width: 100%;
+  }
+  
+  .slide img {
+    width: 100%; /* Gambar memenuhi slide */
+    border-radius: 15px;
+    object-fit: cover; /* Gambar disesuaikan tanpa distorsi */
+  }
+  
+  button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  button.prev {
+    left: 10px;
+  }
+  
+  button.next {
+    right: 10px;
+  }
+  
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Order Form */
+  .order-section {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-section input, .order-section select, .order-section textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+  }
+  
+  .order-section button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .order-section button:hover {
+    background-color: #45a049;
+  }
+  
+  .developer{
+    text-align: center;
+  }

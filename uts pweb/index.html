@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Bagian Header -->
+  <header>
+    <h1>Welcome to MR. STORE</h1>
+    
+    <!-- Menu -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Tentang Kami</a></li>
+            <li><a href="#services">Layanan</a></li>
+            <li><a href="#pricing">Harga</a></li>
+            <li><a href="#contact">Kontak</a></li>
+            <li><a href="#login">Login</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <!-- Bagian Login -->
+  <section class="login-section">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <button type="submit">Login</button>
+    </form>
+  </section>
+
+  <!-- Bagian Produk dengan Slider -->
+  <section class="product-section">
+    <h2>Produk Kami</h2>
+    <div class="slider">
+      <div class="slides">
+        <div class="slide"><img src="img/Apple iPhone 14.jpg" alt="Product 1"></div>
+        <div class="slide"><img src="img/samsung galaxy a35.jpg" alt="Product 2"></div>
+        <div class="slide"><img src="img/SAMSUNG A54.jpg" alt="Product 3"></div>
+        <div class="slide"><img src="img/airpods.jpg" alt="Product 3"></div>
+        <div class="slide"><img src="img/CASING.jpg" alt="Product 3"></div>
+        <div class="slide"><img src="img/RING.jpg" alt="Product 3"></div>
+      </div>
+      <button class="prev">&lt;</button>
+      <button class="next">&gt;</button>
+    </div>
+  </section>
+
+  <!-- Bagian Form Pemesanan -->
+  <section class="order-section">
+    <h2>Form Pemesanan</h2>
+    <form id="orderForm">
+      <label for="product">Pilih Pruduk:</label>
+      <select id="product" name="product" required>
+        <option value="IPhone 14">IPhone 14</option>
+        <option value="Samsung Galaxy A35">Samsung Galaxy A35</option>
+        <option value="Samsung Galaxy A54">Samsung Galaxy A54</option>
+        <option value="Airpoods MAX">Airpoods MAX</option>
+        <option value="Casing HP IP Series">Casing HP IP Series</option>
+        <option value="Ring Handphone">Ring Handphone</option>
+      </select>
+      <label for="quantity">Jumlah:</label>
+      <input type="number" id="quantity" name="quantity" min="1" required>
+      <label for="address">Alamat Penerima:</label>
+      <textarea id="address" name="address" required></textarea>
+      <button type="submit">Pesan Sekarang</button>
+    </form>
+  </section>
+
+    <!-- Profil Pengembang -->
+    <section id="developer" class="developer">
+        <h2>Profil Pengembang</h2>
+        <p>Nama: Muhammad Raihan Ramadhan</p>
+        <p>Email: mraihanrmdan@gmail.com</p>
+    </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
